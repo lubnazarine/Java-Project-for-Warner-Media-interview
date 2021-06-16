@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.537">
+    <testcase classname="Add Item test" name="Add a product" time="13.363">
+        <failure message="Incorrect landing page, expected url : http://automationpractice.com/index.php?controller=authentication&amp;back=my-account actual url : http://automationpractice.com/index.php?controller=my-account" type="java.lang.IllegalStateException"><![CDATA[Given user opens browser and enters url and lands on homepage...............passed
+When user clicks on sign in.................................................passed
+Then verify user land on login screen.......................................failed
+When user enters username and password......................................skipped
+Then user is able to login successfully.....................................skipped
+When user clicks on Women tab...............................................skipped
+Then user is navigated to the Women's page..................................skipped
+When the user adds an item and checks out...................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: Incorrect landing page, expected url : http://automationpractice.com/index.php?controller=authentication&back=my-account actual url : http://automationpractice.com/index.php?controller=my-account
+	at pages.loginPage.verifySignPage(loginPage.java:43)
+	at stepDefinitions.loginStepDefinition.verify_user_land_on_login_screen(loginStepDefinition.java:39)
+	at ✽.verify user land on login screen(file:///Users/riyaz/IdeaProjects/Practice/src/test/resources/features/AddItem.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>

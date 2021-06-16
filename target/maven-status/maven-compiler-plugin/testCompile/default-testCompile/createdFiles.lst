@@ -1,0 +1,15 @@
+pages/fadedShortsPage.class
+runner/TestRunner.class
+pages/orderSummaryPage.class
+pages/logoutPage.class
+pages/loginPage.class
+Utilities/TestBase.class
+pages/addressPage.class
+stepDefinitions/loginStepDefinition.class
+stepDefinitions/addItemStepDefinition.class
+pages/orderConfirmationPage.class
+pages/womenPage.class
+pages/homePage.class
+pages/cartSummaryPage.class
+pages/shippingPage.class
+pages/paymentPage.class

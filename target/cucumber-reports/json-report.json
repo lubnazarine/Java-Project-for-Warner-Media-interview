@@ -1,0 +1,155 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Opening the browser and navigate to login screen",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12719580000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser and enters url and lands on homepage",
+            "match": {
+              "location": "stepDefinitions.loginStepDefinition.user_opens_browser_and_enters_url_and_lands_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 398299000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on sign in",
+            "match": {
+              "location": "stepDefinitions.loginStepDefinition.user_clicks_on_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: Incorrect landing page, expected url : http://automationpractice.com/index.php?controller\u003dauthentication\u0026back\u003dmy-account actual url : http://automationpractice.com/index.php?controller\u003dmy-account\n\tat pages.loginPage.verifySignPage(loginPage.java:43)\n\tat stepDefinitions.loginStepDefinition.verify_user_land_on_login_screen(loginStepDefinition.java:39)\n\tat ✽.verify user land on login screen(file:///Users/riyaz/IdeaProjects/Practice/src/test/resources/features/AddItem.feature:7)\n",
+              "duration": 20954000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "verify user land on login screen",
+            "match": {
+              "location": "stepDefinitions.loginStepDefinition.verify_user_land_on_login_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-16T16:05:24.493Z",
+        "line": 9,
+        "name": "Add a product",
+        "description": "",
+        "id": "add-item-test;add-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 149402000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.loginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 909000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user enters username and password",
+            "match": {
+              "location": "stepDefinitions.loginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 517000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user is able to login successfully",
+            "match": {
+              "location": "stepDefinitions.loginStepDefinition.user_is_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 335000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks on Women tab",
+            "match": {
+              "location": "stepDefinitions.addItemStepDefinition.user_clicks_on_women_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user is navigated to the Women\u0027s page",
+            "match": {
+              "location": "stepDefinitions.addItemStepDefinition.user_is_navigated_to_the_women_s_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 844000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "the user adds an item and checks out",
+            "match": {
+              "location": "stepDefinitions.addItemStepDefinition.the_user_adds_an_item_and_checks_out()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Add"
+          }
+        ]
+      }
+    ],
+    "name": "Add Item test",
+    "description": "",
+    "id": "add-item-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddItem.feature",
+    "tags": [
+      {
+        "name": "@Add",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

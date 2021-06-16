@@ -1,0 +1,188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "launch browser and hit the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1105000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on chrome browser",
+            "match": {
+              "location": "stepDefinitions.launchURL.user_is_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3537205000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Test url and hit enter",
+            "match": {
+              "location": "stepDefinitions.launchURL.userEntersTestUrlAndHitEnter()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-14T17:30:33.576Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5069968000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.launchURL.chromeBrowserSetup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Launch the test application URL 1st time",
+        "description": "",
+        "id": "launch-the-url-testing;launch-the-test-application-url-1st-time",
+        "after": [
+          {
+            "result": {
+              "duration": 412684000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.launchURL.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23541000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that Test page is launched",
+            "match": {
+              "location": "stepDefinitions.launchURL.verify_that_test_page_is_launched()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "launch browser and hit the URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 204000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on chrome browser",
+            "match": {
+              "location": "stepDefinitions.launchURL.user_is_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3239704000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Test url and hit enter",
+            "match": {
+              "location": "stepDefinitions.launchURL.userEntersTestUrlAndHitEnter()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-14T17:30:42.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2285609000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.launchURL.chromeBrowserSetup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Launch the test application URL 2nd time",
+        "description": "",
+        "id": "launch-the-url-testing;launch-the-test-application-url-2nd-time",
+        "after": [
+          {
+            "result": {
+              "duration": 401332000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.launchURL.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 71715000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify that Test page is launched",
+            "match": {
+              "location": "stepDefinitions.launchURL.verify_that_test_page_is_launched()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Launch the URL testing",
+    "description": "",
+    "id": "launch-the-url-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/launchURL.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
