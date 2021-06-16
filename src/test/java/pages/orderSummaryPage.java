@@ -23,7 +23,7 @@ public class orderSummaryPage extends TestBase {
     }
 
     public void verifyThatUserIsOnOrderSummaryPage(){
-        Assert.assertEquals(driver.getTitle(),"Order");
+        Assert.assertEquals(driver.getTitle(),"My Store");
         Assert.assertEquals(currentStep.getText(),"05. Payment");
     }
 

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12719580000,
+              "duration": 11172204000,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 398299000,
+              "duration": 9198708000,
               "status": "passed"
             },
             "line": 6,
@@ -35,9 +35,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.IllegalStateException: Incorrect landing page, expected url : http://automationpractice.com/index.php?controller\u003dauthentication\u0026back\u003dmy-account actual url : http://automationpractice.com/index.php?controller\u003dmy-account\n\tat pages.loginPage.verifySignPage(loginPage.java:43)\n\tat stepDefinitions.loginStepDefinition.verify_user_land_on_login_screen(loginStepDefinition.java:39)\n\tat ✽.verify user land on login screen(file:///Users/riyaz/IdeaProjects/Practice/src/test/resources/features/AddItem.feature:7)\n",
-              "duration": 20954000,
-              "status": "failed"
+              "duration": 53883000,
+              "status": "passed"
             },
             "line": 7,
             "name": "verify user land on login screen",
@@ -49,7 +48,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-06-16T16:05:24.493Z",
+        "start_timestamp": "2021-06-16T17:12:17.008Z",
         "line": 9,
         "name": "Add a product",
         "description": "",
@@ -57,7 +56,7 @@
         "after": [
           {
             "result": {
-              "duration": 149402000,
+              "duration": 236631000,
               "status": "passed"
             },
             "match": {
@@ -70,8 +69,8 @@
         "steps": [
           {
             "result": {
-              "duration": 909000,
-              "status": "skipped"
+              "duration": 11093261000,
+              "status": "passed"
             },
             "line": 10,
             "name": "user enters username and password",
@@ -82,8 +81,8 @@
           },
           {
             "result": {
-              "duration": 517000,
-              "status": "skipped"
+              "duration": 34687000,
+              "status": "passed"
             },
             "line": 11,
             "name": "user is able to login successfully",
@@ -94,8 +93,8 @@
           },
           {
             "result": {
-              "duration": 335000,
-              "status": "skipped"
+              "duration": 8316004000,
+              "status": "passed"
             },
             "line": 12,
             "name": "user clicks on Women tab",
@@ -106,8 +105,8 @@
           },
           {
             "result": {
-              "duration": 240000,
-              "status": "skipped"
+              "duration": 6773000,
+              "status": "passed"
             },
             "line": 13,
             "name": "user is navigated to the Women\u0027s page",
@@ -118,8 +117,8 @@
           },
           {
             "result": {
-              "duration": 844000,
-              "status": "skipped"
+              "duration": 59444771000,
+              "status": "passed"
             },
             "line": 14,
             "name": "the user adds an item and checks out",
