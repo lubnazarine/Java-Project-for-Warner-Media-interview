@@ -1,7 +1,13 @@
 Login with valid credentials and logout successfully
-Verify error message for login with invalud credentials
+Verify error message for login with invalid credentials
 Login and verify that user is able to add items and complete checkout and payment
 Login and add items and change the item qualtity at checkout
+Validate added cart items are retained even when user logs out and again logs in
 Add items and while sign in during checkout enter invalid credentials and then with valid and verify that carts items are still remaining
 Login and during checkout go back and forth and edit items
+Reorder items and edit them
 Login and add items to cart via mobile app and then switch to desktop to complete checkout and payment
+Search for a specific item
+Verify that user is not able to order out of stock items
+Validate filters and edit their combinatins and verify search criteria
+Validate header and footer section and links
